@@ -62,7 +62,7 @@ body {
 
 .box {
 	float: left;
-	position: relatve;
+	position: relative;
 	border: 2px solid #616161;
 	border-radius: 10px;
 	width: 70px;
@@ -88,7 +88,9 @@ button {
 	font-family: 'Play', sans-serif;
 	text-align: center;
 }
+#start{
 
+}
 #stop {
 	
 }
