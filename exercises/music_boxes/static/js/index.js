@@ -5,3 +5,8 @@
  * a different color and all keys should have a hover effect. Clickin ga key on the piano
  * should play a note.
  */
+function playNote(e){
+    var note = document.querySelector(`#${e}Control`);
+    note.currentTime=0;
+    note.play();
+}

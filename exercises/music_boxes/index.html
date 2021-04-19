@@ -7,6 +7,50 @@
     <script src="static/js/index.js"></script>
 </head>
 <body>
+    <audio id="aControl">
+        <source src="static/media/a_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/a_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/a_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="bControl">
+        <source src="static/media/b_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/b_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/b_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="cControl">
+        <source src="static/media/c_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/c_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/c_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="dControl">
+        <source src="static/media/d_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/d_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/d_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="eControl">
+        <source src="static/media/e_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/e_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/e_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="fControl">
+        <source src="static/media/f_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/f_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/f_note.wav" type="audio/wav"></source>
+    </audio>
+    <audio id="gControl">
+        <source src="static/media/g_note.mp3" type="audio/mpeg"></source>
+        <source src="static/media/g_note.ogg" type="audio/ogg"></source>
+        <source src="static/media/g_note.wav" type="audio/wav"></source>
+    </audio>
 <!--Design a simple piano that can play 7 notes.-->
+    <div id= 'piano'>
+        <div id= 'a' class = 'notes' onmousedown="playNote('a')"></div>
+        <div id= 'b' class = 'notes' onmousedown="playNote('b')"></div>
+        <div id= 'c' class = 'notes' onmousedown="playNote('c')"></div>
+        <div id= 'd' class = 'notes' onmousedown="playNote('d')"></div>
+        <div id= 'e' class = 'notes' onmousedown="playNote('e')"></div>
+        <div id= 'f' class = 'notes' onmousedown="playNote('f')"></div>
+        <div id= 'g' class = 'notes' onmousedown="playNote('g')"></div>
+    </div>
 </body>
 </html>
